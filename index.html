@@ -1,25 +1,199 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>GlowSauro</title>
+    <title>GlowSauro • Glossário Neon</title>
+    <link rel="icon" href="imgs/image.jpg">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
     <header>
-        <img class="headerImage" src="imgs/image.jpg">
+        <img class="headerImage" src="imgs/image.jpg" alt="GlowSauro Dino">
+        <h1 class="glow-title">GlowSauro</h1>
     </header>
 
     <main>
+        <section class="intro">
+            <h2>Teste seu conhecimento em programação!</h2>
+            <p>Preencha o que você <strong>acha</strong> que cada palavra significa. Depois, clique em "Revelar" para ver a <strong>definição oficial</strong> (com dicionário e sinônimos).</p>
+        </section>
 
+        <div class="glossary">
+
+            <!-- Questão 11 -->
+            <div class="group">
+                <h3 class="group-title">Referente a: Questão 11</h3>
+                <div class="term">
+                    <h4>Implementação</h4>
+                    <textarea placeholder="O que eu acho que significa..." class="guess"></textarea>
+                    <p class="author-meaning"> Opinião do Autor: Processo de adicionar a algo.</p>
+                    <button class="reveal-btn">Revelar</button>
+                    <p class="true-meaning" style="display:none;">
+                        <strong>Definição (Michaelis):</strong> Ato ou efeito de implementar; realização concreta de um plano, projeto ou ideia. Em informática, processo de traduzir um projeto ou especificação em código funcional.<br><br>
+                        <strong>Sinônimos:</strong> execução, realização.
+                    </p>
+                </div>
+                <div class="term">
+                    <h4>HTML</h4>
+                    <textarea placeholder="O que eu acho que significa..." class="guess"></textarea>
+                    <p class="author-meaning"> Opinião do Autor: Linguagem de estruturação em websites.</p>
+                    <button class="reveal-btn">Revelar</button>
+                    <p class="true-meaning" style="display:none;">
+                        <strong>Definição (MDN):</strong> HyperText Markup Language (HTML) é a linguagem de marcação padrão para documentos projetados para serem exibidos em um navegador web. Define a estrutura semântica de uma página usando elementos como &lt;p&gt;, &lt;h1&gt;, &lt;div&gt;, etc.<br><br>
+                        <strong>Sinônimos:</strong> hipertexto, linguagem de marcação.
+                    </p>
+                </div>
+                <div class="term">
+                    <h4>JavaScript</h4>
+                    <textarea placeholder="O que eu acho que significa..." class="guess"></textarea>
+                    <p class="author-meaning"> Opinião do Autor: Linguagem de interação em websites.</p>
+                    <button class="reveal-btn">Revelar</button>
+                    <p class="true-meaning" style="display:none;">
+                        <strong>Definição (MDN):</strong> JavaScript (JS) é uma linguagem de programação interpretada, de alto nível, que conforma-se à especificação ECMAScript. É usada principalmente para criar interatividade em páginas web, manipulando o DOM e respondendo a eventos.<br><br>
+                        <strong>Sinônimos:</strong> JS, linguagem cliente.
+                    </p>
+                </div>
+                <div class="term">
+                    <h4>Código</h4>
+                    <textarea placeholder="O que eu acho que significa..." class="guess"></textarea>
+                    <p class="author-meaning"> Opinião do Autor: Comandos definidos para que uma máquina execute.</p>
+                    <button class="reveal-btn">Revelar</button>
+                    <p class="true-meaning" style="display:none;">
+                        <strong>Definição (Priberam):</strong> Conjunto de símbolos ou sinais convencionados para representar informações; em informática, sequência de instruções em linguagem de programação destinada a ser executada por um computador.<br><br>
+                        <strong>Sinônimos:</strong> programação, instruções.
+                    </p>
+                </div>
+                <div class="term">
+                    <h4>Parâmetro</h4>
+                    <textarea placeholder="O que eu acho que significa..." class="guess"></textarea>
+                    <p class="author-meaning"> Opinião do Autor: Uma das coisas necessárias para o funcionamento de um código.</p>
+                    <button class="reveal-btn">Revelar</button>
+                    <p class="true-meaning" style="display:none;">
+                        <strong>Definição (Houaiss):</strong> Cada uma das grandezas que entram numa relação funcional e cujo valor determina o da função; em programação, variável formal declarada na definição de uma função, que recebe um valor ao ser chamada.<br><br>
+                        <strong>Sinônimos:</strong> argumento, entrada.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Questão 12 -->
+            <div class="group">
+                <h3 class="group-title">Referente a: Questão 12</h3>
+                <div class="term">
+                    <h4>Calculado</h4>
+                    <textarea placeholder="O que eu acho que significa..." class="guess"></textarea>
+                    <p class="author-meaning"> Opinião do Autor: Algo feito envolvendo números.</p>
+                    <button class="reveal-btn">Revelar</button>
+                    <p class="true-meaning" style="display:none;">
+                        <strong>Definição (Michaelis):</strong> Obtido por meio de cálculo; determinado matematicamente. Em computação, resultado produzido por uma operação aritmética ou lógica executada por um algoritmo.<br><br>
+                        <strong>Sinônimos:</strong> computado, determinado.
+                    </p>
+                </div>
+                <div class="term">
+                    <h4>Verifica</h4>
+                    <textarea placeholder="O que eu acho que significa..." class="guess"></textarea>
+                    <p class="author-meaning"> Opinião do Autor: É revisado/olhado.</p>
+                    <button class="reveal-btn">Revelar</button>
+                    <p class="true-meaning" style="display:none;">
+                        <strong>Definição (Priberam):</strong> Examinar com atenção para averiguar a exatidão, a veracidade ou a conformidade com um padrão; em programação, testar uma condição lógica (ex: if) para decidir o fluxo de execução.<br><br>
+                        <strong>Sinônimos:</strong> checa, valida.
+                    </p>
+                </div>
+                <div class="term">
+                    <h4>Tempo</h4>
+                    <textarea placeholder="O que eu acho que significa..." class="guess"></textarea>
+                    <p class="author-meaning"> Opinião do Autor: Um conceito universal para definir o período físico das coisas.</p>
+                    <button class="reveal-btn">Revelar</button>
+                    <p class="true-meaning" style="display:none;">
+                        <strong>Definição (Houaiss):</strong> Duração das coisas; sucessão contínua de instantes; em programação, medida de duração (ex: setTimeout) ou ponto no tempo (timestamp em milissegundos desde 1º de janeiro de 1970).<br><br>
+                        <strong>Sinônimos:</strong> duração, momento.
+                    </p>
+                </div>
+                <div class="term">
+                    <h4>Estacionado</h4>
+                    <textarea placeholder="O que eu acho que significa..." class="guess"></textarea>
+                    <p class="author-meaning"> Opinião do Autor: Parado</p>
+                    <button class="reveal-btn">Revelar</button>
+                    <p class="true-meaning" style="display:none;">
+                        <strong>Definição (Michaelis):</strong> Que se encontra parado em um lugar; em programação, refere-se a uma variável ou valor que permanece constante durante a execução de um escopo (ex: let/const local).<br><br>
+                        <strong>Sinônimos:</strong> fixo, imutável.
+                    </p>
+                </div>
+                <div class="term">
+                    <h4>Valor</h4>
+                    <textarea placeholder="O que eu acho que significa..." class="guess"></textarea>
+                    <p class="author-meaning"> Opinião do Autor: Número ou texto armazenado.</p>
+                    <button class="reveal-btn">Revelar</button>
+                    <p class="true-meaning" style="display:none;">
+                        <strong>Definição (Priberam):</strong> Aquilo que uma grandeza, uma variável ou um símbolo representa; em programação, dado atribuído a uma variável, podendo ser número, string, booleano, objeto, etc.<br><br>
+                        <strong>Sinônimos:</strong> dado, conteúdo.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Questão 13 -->
+            <div class="group">
+                <h3 class="group-title">Referente a: Questão 13</h3>
+                <div class="term">
+                    <h4>Incrementar</h4>
+                    <textarea placeholder="O que eu acho que significa..." class="guess"></textarea>
+                    <p class="author-meaning"> Opinião do Autor: Acrescentar a algo.</p>
+                    <button class="reveal-btn">Revelar</button>
+                    <p class="true-meaning" style="display:none;">
+                        <strong>Definição (Houaiss):</strong> Aumentar em uma unidade ou quantidade; em programação, operação que soma um valor (geralmente 1) a uma variável numérica, comumente representada por ++ ou += 1.<br><br>
+                        <strong>Sinônimos:</strong> aumentar, somar.
+                    </p>
+                </div>
+                <div class="term">
+                    <h4>Função</h4>
+                    <textarea placeholder="O que eu acho que significa..." class="guess"></textarea>
+                    <p class="author-meaning"> Opinião do Autor: Ordem para executar algo.</p>
+                    <button class="reveal-btn">Revelar</button>
+                    <p class="true-meaning" style="display:none;">
+                        <strong>Definição (Michaelis):</strong> Relação entre grandezas na qual a cada valor de uma corresponde um único valor de outra; em programação, bloco de código nomeado, reutilizável, que pode receber parâmetros e retornar um valor.<br><br>
+                        <strong>Sinônimos:</strong> sub-rotina, procedimento.
+                    </p>
+                </div>
+                <div class="term">
+                    <h4>Lógica</h4>
+                    <textarea placeholder="O que eu acho que significa..." class="guess"></textarea>
+                    <p class="author-meaning"> Opinião do Autor: Sentido ou padrão de algo.</p>
+                    <button class="reveal-btn">Revelar</button>
+                    <p class="true-meaning" style="display:none;">
+                        <strong>Definição (Priberam):</strong> Encadeamento coerente e ordenado de raciocínios; em programação, uso de estruturas condicionais (if/else), laços (loops) e operadores para controlar o fluxo de execução.<br><br>
+                        <strong>Sinônimos:</strong> raciocínio, coerência.
+                    </p>
+                </div>
+                <div class="term">
+                    <h4>Agrupar</h4>
+                    <textarea placeholder="O que eu acho que significa..." class="guess"></textarea>
+                    <p class="author-meaning"> Opinião do Autor: Juntar, unir.</p>
+                    <button class="reveal-btn">Revelar</button>
+                    <p class="true-meaning" style="display:none;">
+                        <strong>Definição (Michaelis):</strong> Reunir em grupo; em programação, organizar dados relacionados em estruturas como arrays, objetos, funções ou módulos para facilitar manipulação e reutilização.<br><br>
+                        <strong>Sinônimos:</strong> reunir, organizar.
+                    </p>
+                </div>
+                <div class="term">
+                    <h4>ID</h4>
+                    <textarea placeholder="O que eu acho que significa..." class="guess"></textarea>
+                    <p class="author-meaning"> Opinião do Autor: Valor de identificação.</p>
+                    <button class="reveal-btn">Revelar</button>
+                    <p class="true-meaning" style="display:none;">
+                        <strong>Definição (MDN):</strong> Atributo global em HTML que define um identificador único (ID) para um elemento, usado para estilização via CSS (#meu-id) ou manipulação via JavaScript (getElementById).<br><br>
+                        <strong>Sinônimos:</strong> identificador, chave única.
+                    </p>
+                </div>
+            </div>
+        </div>
     </main>
 
     <footer>
-
+        <p>© 2025 GlowSauro</p>
     </footer>
 
+    <script src="script.js"></script>
 </body>
-<script src="script.js"></script>
 </html>
