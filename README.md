@@ -7,5 +7,5 @@ O site tem o objetivo de disponibilizar o significado e sinônimos de algumas pa
 Para a confecção do website, fiz uso de HTML para a estrutura, CSS para a aparência e Javascript para a parte interativa.
 
 Estudante: Marcus Vinicius Correia Pereira
-
+Professora: Danielly de Souza dos Santos
 Escola: Colégio Estadual Marechal Costa e Silva
